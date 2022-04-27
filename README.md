@@ -2,7 +2,7 @@ A minimal real-time chat in 7 lines of svelte using https://javascriptdb.com and
 
 Try it live at https://chat.javascriptdb.com
 
-```sveltehtml
+```html
 <script>
     import {DatabaseArray, setServerUrl} from "@jsdb/sdk";
     const msgs = new DatabaseArray('msgs');
