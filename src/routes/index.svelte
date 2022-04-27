@@ -1,5 +1,5 @@
 <script>
-    import {DatabaseArray, setServerUrl} from "@jsdb/sdk";
+    import {DatabaseArray} from "@jsdb/sdk";
     const msgs = new DatabaseArray('msgs');
     const lastMinuteMessages = msgs.filter(message => message.date > (Date.now() - 60*1000));
 </script>
