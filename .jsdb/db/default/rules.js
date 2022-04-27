@@ -1,0 +1,1 @@
+export default () => false; //This allows all operations. Change to false in production
